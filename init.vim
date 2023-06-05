@@ -1,5 +1,14 @@
-" Configuartion file for neovim.
-" Place under ~/.config/nvim/
+" Configuartion file for vim.
+" Place in your .vimrc file.
+
+" Instructions (For Rust LSP):
+" 1- Install Plug:
+"    curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" 2- Install Nodejs:
+"    curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
+"    sudo apt install -y nodejs
+" 3- Call PlugInstall
+" 4- Call CocInstall coc-rust-analyzer
 
 :set number
 :set autoindent
